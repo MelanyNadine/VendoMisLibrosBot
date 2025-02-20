@@ -11,8 +11,6 @@ import os
 import urllib.request
 import json
 from dotenv import load_dotenv
-from PIL import Image
-from io import BytesIO
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, ReplyKeyboardRemove, Update
 from telegram.ext import (
     Application,
